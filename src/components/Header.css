@@ -1,0 +1,16 @@
+.header {
+    overflow: hidden; /* Clear the float */
+  }
+  
+  .logo-container {
+    float: left;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .heading {
+    margin-left: 10px; /* Add spacing between the logo and text */
+  }
