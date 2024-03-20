@@ -1,0 +1,84 @@
+
+.app {
+  display: flex;
+  flex-direction: column; /* Stack flex items vertically */
+  align-items: flex-start; /* Align items to the start of the cross axis (left) */
+}
+
+
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #000000;
+  color: #fff;
+
+  margin-right: 1221.5px ;/* Move the sidebar 20px away from the left edge */
+}
+
+
+
+.sidebar-content {
+  border-right: 1px solid #ccc;
+}
+
+.sidebar-title {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.taya-dropdown {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.taya-dropdown:first-child {
+  border-top: 1px solid #ccc;
+}
+
+.dropdown-options ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-options li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Adjust the sidebar position */
+@media (min-width: 768px) {
+  .app {
+      flex-direction: row; /* Set flex direction to row */
+  }
+  .sidebar {
+      flex: 0 0 auto; /* Make the sidebar not grow or shrink */
+  }
+  .content {
+      flex: 1; /* Let content take remaining space */
+  }
+}
+
+.page-one-container {
+  /* Set background image to the blurred PNG */
+  background-image: url('../../public/Blur.png');
+  /* Define background image size and behavior */
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Add any other styles you want for the page container */
+}
+
+.admin-image-container {
+  /* Set dimensions or other styles for the container if needed */
+  width: 100%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
+  /* You might not need any specific styles for this container */
+}

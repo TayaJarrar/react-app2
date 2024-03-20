@@ -1,0 +1,47 @@
+.navbar {
+    background-color:#292727;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 10px 10px;
+  }
+  
+  .admin-image-container {
+    margin-left: 1420px; /* Pushes the image to the right */
+    margin-bottom: 0px;
+  }
+  
+  .admin-image {
+    width: 50px;
+    height: auto;
+
+  }
+  
+  .listone {
+    list-style: none;
+    display: flex; /* Use flexbox */
+    margin-left: 1100px;
+
+  }
+  
+  .listone li {
+    margin-right: 0px;
+    
+    margin-left: 50px; /* Adjust the left margin to move items more to the left */
+
+  }
+
+  .AdminDiv{
+margin-right: 40px;
+display: inline-block;
+list-style: none;
+margin-top: 1px;
+margin-bottom: 0%;
+
+
+  }
+  .AboutDiv{
+    margin-left: 0px;
+
+  }
